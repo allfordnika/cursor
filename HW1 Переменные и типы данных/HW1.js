@@ -15,7 +15,7 @@ let vegetables = 229.8775;
 console.log(vegetables);
 
 Math.trunc(vegetables);
-console.log(Math.trunc);
+console.log(Math.trunc(vegetables));
 
 let x = Math.trunc(carrot + avocado + tomato);
 x + (100 - (x%100))
@@ -40,7 +40,11 @@ console.log(payment);
 payment.toFixed(0)
 console.log(payment.toFixed(2))
 
+let costprice = vegetables / 2;
+console.log(costprice);
 
+let diff = costprice-discount;
+console.log(diff);
 
 console.log("Максимальная цена:" + Math.max(carrot, avocado, tomato));
 console.log("Минимальная цена:" + Math.min(carrot, avocado, tomato));
@@ -50,3 +54,4 @@ console.log("Булевое значение:" + Boolean(229 % 2));
 console.log("Сумма сдачи:" + change);
 console.log("Среднее значение:" + averagePrice.toFixed(2));
 console.log("Случайная скидка:" + (payment.toFixed(2)));
+console.log("Выгода:" + (diff.toFixed(2)));
