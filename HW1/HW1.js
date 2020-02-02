@@ -48,7 +48,7 @@ console.log(payment.toFixed(2))
 let costprice = vegetables / 2;
 console.log(costprice);
 
-let diff = costprice-discount;
+let diff = costprice - ((costprice * discount)/100);
 console.log(diff);
 
 console.log("Максимальная цена:" + Math.max(carrot, avocado, tomato));
