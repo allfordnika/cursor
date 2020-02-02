@@ -8,17 +8,25 @@ console.log(Math.max(carrot, avocado, tomato));
 Math.min(carrot,avocado,tomato);
 console.log(Math.min(carrot,avocado,tomato));
 
+let wholeC = Math.floor (carrot);
+let wholeA = Math.floor (avocado );
+let wholeT = Math.floor (tomato );
+
+
 let vegetables = (carrot+avocado+tomato);
 console.log(vegetables);
 
-Math.trunc(vegetables);
-console.log(Math.trunc(vegetables));
+let wholeVeg = (wholeC + wholeA +wholeT);
+console.log(wholeVeg);
+
+Math.trunc  (wholeVeg );
+console.log(Math.trunc (wholeVeg ));
 
 console.log((vegetables/100).toFixed(0) * 100)
 
 
-Boolean(229 % 2)
-console.log(Boolean(229 % 2))
+Boolean(228 % 2)
+console.log(Boolean(228 % 2))
 
 let change = (500 - vegetables);
 console.log(change);
@@ -46,7 +54,7 @@ console.log("Максимальная цена:" + Math.max(carrot, avocado, tom
 console.log("Минимальная цена:" + Math.min(carrot, avocado, tomato));
 console.log("Целая часть стоимости:" + Math.trunc(vegetables));
 console.log("Сумма товаров округленная до сотен:" + ((vegetables/100).toFixed(0) * 100));
-console.log("Булевое значение:" + Boolean(229 % 2));
+console.log("Булевое значение:" + Boolean(228 % 2));
 console.log("Сумма сдачи:" + change);
 console.log("Среднее значение:" + averagePrice.toFixed(2));
 console.log("Случайная скидка:" + (payment.toFixed(2)));
