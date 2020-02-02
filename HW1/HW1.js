@@ -41,6 +41,7 @@ console.log(discount);
 
 let payment = (vegetables * discount)/100
 console.log(payment);
+
 payment.toFixed(0)
 console.log(payment.toFixed(2))
 
@@ -57,5 +58,6 @@ console.log("Сумма товаров округленная до сотен:" 
 console.log("Булевое значение:" + Boolean(228 % 2));
 console.log("Сумма сдачи:" + change);
 console.log("Среднее значение:" + averagePrice.toFixed(2));
-console.log("Случайная скидка:" + (payment.toFixed(2)));
+console.log("Случайная скидка :" + discount);
+console.log("Сумма к оплате:" + (payment.toFixed(2)));
 console.log("Выгода:" + (diff.toFixed(2)));
