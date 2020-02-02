@@ -53,7 +53,7 @@ console.log(diff);
 
 console.log("Максимальная цена:" + Math.max(carrot, avocado, tomato));
 console.log("Минимальная цена:" + Math.min(carrot, avocado, tomato));
-console.log("Целая часть стоимости:" + Math.trunc(vegetables));
+console.log("Целая часть стоимости:" + Math.trunc(wholeVeg));
 console.log("Сумма товаров округленная до сотен:" + ((vegetables/100).toFixed(0) * 100));
 console.log("Булевое значение:" + Boolean(228 % 2));
 console.log("Сумма сдачи:" + change);
