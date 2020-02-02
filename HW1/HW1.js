@@ -40,7 +40,7 @@ let discount = Math.random() * 100
 console.log(discount);
 
 let payment = (vegetables * discount)/100
-console.log(payment);
+console.log(payment.toFixed(2));
 
 payment.toFixed(0)
 console.log(payment.toFixed(2))
@@ -48,7 +48,7 @@ console.log(payment.toFixed(2))
 let costprice = vegetables / 2;
 console.log(costprice);
 
-let diff = costprice - ((costprice * discount)/100);
+let diff = costprice - ((vegetables * discount)/100);
 console.log(diff);
 
 console.log("Максимальная цена:" + Math.max(carrot, avocado, tomato));
@@ -60,4 +60,4 @@ console.log("Сумма сдачи:" + change);
 console.log("Среднее значение:" + averagePrice.toFixed(2));
 console.log("Случайная скидка :" + discount);
 console.log("Сумма к оплате:" + (payment.toFixed(2)));
-console.log("Выгода:" + (diff.toFixed(2)));
+console.log("Чистая прибыль:" + (diff.toFixed(2)));
