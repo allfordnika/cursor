@@ -39,7 +39,7 @@ console.log(averagePrice.toFixed(2));
 let discount = Math.random() * 100
 console.log(discount);
 
-let payment = (vegetables * discount)/100
+let payment = vegetables - (vegetables * discount)/100
 console.log(payment.toFixed(2));
 
 payment.toFixed(0)
