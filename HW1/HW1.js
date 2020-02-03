@@ -17,7 +17,6 @@ let vegetables = (carrot+avocado+tomato);
 console.log(vegetables);
 
 let wholeVeg = (wholeC + wholeA +wholeT);
-console.log(wholeVeg);
 
 Math.trunc  (wholeVeg );
 console.log(Math.trunc (wholeVeg ));
