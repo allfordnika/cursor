@@ -21,8 +21,9 @@ let wholeVeg = (wholeC + wholeA +wholeT);
 Math.trunc  (wholeVeg );
 console.log(Math.trunc (wholeVeg ));
 
-console.log((vegetables/100).toFixed(0) * 100)
-
+let x = Math.trunc  (wholeVeg );
+x + (100 - (x%100))
+console.log(x + (100 - (x%100)));
 
 Boolean(228 % 2)
 console.log(Boolean(228 % 2))
