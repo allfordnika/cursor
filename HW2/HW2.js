@@ -41,13 +41,10 @@ for (var i = verificationN; i <= numberM; i++) {
 
     if (question){
 
-        if( (i % 2)===0 ){}
-
-
-        else {
+        if( (i % 2)!== 0 ){
             summ = summ + i;
-
         }
+
     }
     else  {
         summ = summ + i;
